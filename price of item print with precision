@@ -1,0 +1,12 @@
+#include <iostream>
+#include <iomanip> // <-- Add this header for setprecision
+
+using namespace std;
+
+int main()
+{
+    float itemPrice;
+    cin >> itemPrice;
+    cout << fixed << setprecision(2) << itemPrice;
+    return 0;
+}
